@@ -22,7 +22,7 @@ train_data=mm.fit_transform(data)
 
 input_step=30
 pred_stride=3
-x_enc,x_dec,y_train=generate_training_examples(train_data,input_step,pred_stride)
+x_enc,x_dec,y_train=generate_examples(train_data,input_step,pred_stride)
 
 
 # build the model
