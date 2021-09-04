@@ -34,7 +34,7 @@ data_test=(data_test-mm.data_min_)/(mm.data_max_-mm.data_min_)
 
 input_step=paras.item()['input_step']
 pred_stride=paras.item()['pred_stride']
-x_enc,x_dec,_=generate_training_examples(data_test,input_step,pred_stride)
+x_enc,x_dec,_=generate_examples(data_test,input_step,pred_stride)
 
 # load model
 # model=load_model('./model/Transformer_regression.h5',
