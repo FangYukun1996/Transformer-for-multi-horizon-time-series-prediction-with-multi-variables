@@ -26,7 +26,7 @@ import numpy as np
 
 # Generate Training Data for Time series
 # non-padding edition. It do not work in the training
-# def generate_training_examples(sequence,input_step,pred_stride):
+# def generate_examples(sequence,input_step,pred_stride):
 #     n_patterns=len(sequence)-input_step-pred_stride+2
 #     X, y = list(), list()
 #     for i in range(n_patterns-1):
